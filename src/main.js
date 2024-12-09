@@ -1,4 +1,5 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
+console.log(process.env.VUE_APP_TEST);
 
-createApp(App).mount('#app')
+createApp(App).mount("#app");
